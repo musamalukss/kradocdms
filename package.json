@@ -1,0 +1,18 @@
+{
+	"name": "microservices",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"user": "cd kr-ms-user && set ENVIRONMENT=development && set PORT=4000 && npm run dev", 
+		"admin": "cd kr-ms-admin && set ENVIRONMENT=development && set PORT=5000 && npm run dev",
+    "start": "start npm run user && start npm run admin"
+
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"mongoose": "^5.6.5"
+	}
+}

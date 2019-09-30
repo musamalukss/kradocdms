@@ -1,0 +1,29 @@
+{
+	"name": "default",
+	"version": "1.0.0",
+	"description": "An API built with NodeJS, Express, MongoDB and TypeScript",
+	"main": "dist/server.js",
+	"license": "ISC",
+	"scripts": {
+		"build": "tsc --p tsconfig.json",
+		"dev": "ts-node ./src/server.ts"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"compression": "^1.7.2",
+		"dotenv-safe": "^6.0.0",
+		"express": "^4.16.3",
+		"helmet": "^3.12.1",
+		"json2csv": "^4.3.5",
+		"mongoose": "^5.2.2",
+		"cors": "^2.8.4",
+		"request": "^2.87.0",
+		"request-promise-native": "^1.0.5",
+		"lodash": "^4.17.10"
+	},
+	"devDependencies": {
+		"@types/node": "^10.5.2",
+		"ts-node": "^7.0.0",
+		"typescript": "^2.9.2"
+	}
+}

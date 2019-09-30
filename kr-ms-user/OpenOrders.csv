@@ -1,0 +1,349 @@
+"DealsheetNumber","ActivationType","DealerID","Channel","MSISDN","QuoteNumber","OrderNumber","iccid","request","response","status"
+"V15DC3726","New Activation","VWOR1","TAPOmni","27609944165","VODACOMONLIN-0000007288","TAPOMNIO-0000007289","89300000000009804855","<?xml version=""1.0"" encoding=""utf-8""?><soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""  xmlns:v4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:v2=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerDetails/V2"" xmlns:WL5G3N1=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N2=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N3=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:WL5G3N4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:WL5G3N5=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:genfault=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:hdr=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:svcfault=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:tns=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:typ=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3""><soap:Header><v4:RequestHeader><v4:MessageCreationTimestamp>2019-05-14T10:25:33.807+02:00</v4:MessageCreationTimestamp><v4:TransactionId>92lau7ghvmf48te36u4</v4:TransactionId><v4:TransactionCreationTimestamp>2019-05-14T10:25:33.807+02:00</v4:TransactionCreationTimestamp><v4:RequestApplicationId>TAPOmni</v4:RequestApplicationId><v4:UserId>MOURYAM</v4:UserId></v4:RequestHeader>
+<add:MessageID xmlns:add=""http://www.w3.org/2005/08/addressing"" xmlns=""http://www.w3.org/2005/08/addressing"">uuid:e11fac46-2f18-4948-af9e-78dd281cc950</add:MessageID></soap:Header><soap:Body>
+						<CreateQuoteForDealsheet xmlns=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:ns2=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns3=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:ns4=""http://www.w3.org/2005/08/addressing"" xmlns:ns5=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:ns6=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"">
+							<AccountID>1-53059338911</AccountID>
+							<DealsheetNumber>V15DC3726</DealsheetNumber>
+							<QuoteNumber>VODACOMONLIN-0000007288</QuoteNumber>
+							<ActivationType>New Activation</ActivationType>
+							<MSISDN>27609944165</MSISDN>
+							<DealerID>VWOR1</DealerID>
+							<Channel>TAPOmni</Channel>
+							<BillingProfileID>1-ODI5RZ8</BillingProfileID>
+							<FulfillmentPriorityCode>Medium</FulfillmentPriorityCode>
+							<SubmitFlag>true</SubmitFlag>
+							<AdminFee>N</AdminFee>
+							<AddressID>1-ODI5RY7</AddressID>
+							<VettingFlag>N</VettingFlag>
+							<ListOfDealSheetVAS />
+							<CreditVettingResult>
+								<ApplicationStatus>PROCESSED</ApplicationStatus>
+								<ServiceRequestNumber>SR-0000007288</ServiceRequestNumber>
+								<ApprovalNumber>1226248</ApprovalNumber>
+								<CallLimitFlag>false</CallLimitFlag>
+								<CreditLimitFlag>false</CreditLimitFlag>
+								<FinancedChargedValue>0.0</FinancedChargedValue>
+								<FinancedDeal>Y</FinancedDeal>
+								<HandsetLimit>19999.0</HandsetLimit>
+								<LatestVetDate>11/30/2018</LatestVetDate>
+								<PortfolioNumber>P0700</PortfolioNumber>
+								<Referralnumber>23308228</Referralnumber>
+								<SuccessStatus>true</SuccessStatus>
+								<TariffLimit>10189.47</TariffLimit>
+								<VettingDate>11/30/2018</VettingDate>
+								<VettingStatus>APPROVED</VettingStatus>
+								<CreditVettingResultItem>
+									<DealId>V15DC3726</DealId>
+									<RequiredDepositValue>0.0</RequiredDepositValue>
+									<DepositType>ReqTarrifDep</DepositType>
+									<LineNumber>2</LineNumber>
+									<UpfrontPaymentValue>0.0</UpfrontPaymentValue>
+								</CreditVettingResultItem>
+							</CreditVettingResult>
+							<DealerName>VODACOM SHOP VODACOM WORLD</DealerName>
+							<ListOfIMEI>
+								<DealsheetIMEI>
+									<ProductCode>104027775</ProductCode>
+									<IMEI>878767654543510</IMEI>
+								</DealsheetIMEI>
+							</ListOfIMEI>
+							<ListOfICCID>
+								<DealsheetICCID>
+									<PromotionId>1-1AALOP</PromotionId>
+									<ProductCode>103004940</ProductCode>
+									<ICCID>89300000000009804855</ICCID>
+								</DealsheetICCID>
+							</ListOfICCID>
+							<SIMSwapFlag>false</SIMSwapFlag>
+						</CreateQuoteForDealsheet>
+					</soap:Body></soap:Envelope>","{""StatusCode"":""0"",""QuoteNumber"":""VODACOMONLIN-0000007288"",""OrderNumber"":""TAPOMNIO-0000007289""}","Open"
+"V16JU165","New Activation","VWOR1","TAPOmni","27609945385","VODACOMONLIN-0000007383","TAPOMNIO-0000007384","89300000000009803675","<?xml version=""1.0"" encoding=""utf-8""?><soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""  xmlns:v4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:v2=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerDetails/V2"" xmlns:WL5G3N1=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N2=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N3=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:WL5G3N4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:WL5G3N5=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:genfault=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:hdr=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:svcfault=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:tns=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:typ=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3""><soap:Header><v4:RequestHeader><v4:MessageCreationTimestamp>2019-05-23T13:58:04.346+02:00</v4:MessageCreationTimestamp><v4:TransactionId>sxvb7myrdyc9em0iwmx</v4:TransactionId><v4:TransactionCreationTimestamp>2019-05-23T13:58:04.346+02:00</v4:TransactionCreationTimestamp><v4:RequestApplicationId>TAPOmni</v4:RequestApplicationId><v4:UserId>MOURYAM</v4:UserId></v4:RequestHeader>
+<add:MessageID xmlns:add=""http://www.w3.org/2005/08/addressing"" xmlns=""http://www.w3.org/2005/08/addressing"">uuid:e11fac46-2f18-4948-af9e-78dd281cc950</add:MessageID></soap:Header><soap:Body>
+						<CreateQuoteForDealsheet xmlns=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:ns2=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns3=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:ns4=""http://www.w3.org/2005/08/addressing"" xmlns:ns5=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:ns6=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"">
+							<AccountID>1-53066696621</AccountID>
+							<DealsheetNumber>V16JU165</DealsheetNumber>
+							<QuoteNumber>VODACOMONLIN-0000007383</QuoteNumber>
+							<ActivationType>New Activation</ActivationType>
+							<MSISDN>27609945385</MSISDN>
+							<DealerID>VWOR1</DealerID>
+							<Channel>TAPOmni</Channel>
+							<BillingProfileID>1-ODMJH7O</BillingProfileID>
+							<FulfillmentPriorityCode>Medium</FulfillmentPriorityCode>
+							<SubmitFlag>true</SubmitFlag>
+							<AdminFee>N</AdminFee>
+							<AddressID>1-ODMJH71</AddressID>
+							<VettingFlag>N</VettingFlag>
+							<ListOfDealSheetVAS />
+							<CreditVettingResult>
+								<ApplicationStatus>PROCESSED</ApplicationStatus>
+								<ServiceRequestNumber>SR-0000007383</ServiceRequestNumber>
+								<ApprovalNumber>1258621</ApprovalNumber>
+								<CallLimitFlag>false</CallLimitFlag>
+								<CreditLimitFlag>false</CreditLimitFlag>
+								<FinancedChargedValue>0.0</FinancedChargedValue>
+								<FinancedDeal>Y</FinancedDeal>
+								<HandsetLimit>19999.0</HandsetLimit>
+								<LatestVetDate>11/30/2018</LatestVetDate>
+								<PortfolioNumber>P0700</PortfolioNumber>
+								<Referralnumber>23309441</Referralnumber>
+								<SuccessStatus>true</SuccessStatus>
+								<TariffLimit>10189.47</TariffLimit>
+								<VettingDate>11/30/2018</VettingDate>
+								<VettingStatus>APPROVED</VettingStatus>
+								<CreditVettingResultItem>
+									<DealId>V16JU165</DealId>
+									<RequiredDepositValue>0.0</RequiredDepositValue>
+									<DepositType>ReqTarrifDep</DepositType>
+									<LineNumber>2</LineNumber>
+									<UpfrontPaymentValue>0.0</UpfrontPaymentValue>
+								</CreditVettingResultItem>
+							</CreditVettingResult>
+							<DealerName>VODACOM SHOP VODACOM WORLD</DealerName>
+							<ListOfIMEI>
+								<DealsheetIMEI>
+									<ProductCode>104030005</ProductCode>
+									<IMEI>878767654543510</IMEI>
+								</DealsheetIMEI>
+							</ListOfIMEI>
+							<ListOfICCID>
+								<DealsheetICCID>
+									<PromotionId>1-1ADFKM</PromotionId>
+									<ProductCode>103004940</ProductCode>
+									<ICCID>89300000000009803675</ICCID>
+								</DealsheetICCID>
+							</ListOfICCID>
+							<SIMSwapFlag>false</SIMSwapFlag>
+						</CreateQuoteForDealsheet>
+					</soap:Body></soap:Envelope>","{""StatusCode"":""0"",""QuoteNumber"":""VODACOMONLIN-0000007383"",""OrderNumber"":""TAPOMNIO-0000007384""}","Open"
+"DV15DC1066","New Activation","VWOR1","TAPOmni","27609944413","VODACOMONLIN-0000007385","TAPOMNIO-0000007386","89300000000009802248","<?xml version=""1.0"" encoding=""utf-8""?><soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""  xmlns:v4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:v2=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerDetails/V2"" xmlns:WL5G3N1=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N2=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N3=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:WL5G3N4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:WL5G3N5=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:genfault=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:hdr=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:svcfault=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:tns=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:typ=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3""><soap:Header><v4:RequestHeader><v4:MessageCreationTimestamp>2019-05-23T14:11:40.711+02:00</v4:MessageCreationTimestamp><v4:TransactionId>whqqdnhubngwepewuza</v4:TransactionId><v4:TransactionCreationTimestamp>2019-05-23T14:11:40.711+02:00</v4:TransactionCreationTimestamp><v4:RequestApplicationId>TAPOmni</v4:RequestApplicationId><v4:UserId>MOURYAM</v4:UserId></v4:RequestHeader>
+<add:MessageID xmlns:add=""http://www.w3.org/2005/08/addressing"" xmlns=""http://www.w3.org/2005/08/addressing"">uuid:e11fac46-2f18-4948-af9e-78dd281cc950</add:MessageID></soap:Header><soap:Body>
+						<CreateQuoteForDealsheet xmlns=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:ns2=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns3=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:ns4=""http://www.w3.org/2005/08/addressing"" xmlns:ns5=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:ns6=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"">
+							<AccountID>1-53066357081</AccountID>
+							<DealsheetNumber>DV15DC1066</DealsheetNumber>
+							<QuoteNumber>VODACOMONLIN-0000007385</QuoteNumber>
+							<ActivationType>New Activation</ActivationType>
+							<MSISDN>27609944413</MSISDN>
+							<DealerID>VWOR1</DealerID>
+							<Channel>TAPOmni</Channel>
+							<BillingProfileID>1-ODMC780</BillingProfileID>
+							<FulfillmentPriorityCode>Medium</FulfillmentPriorityCode>
+							<SubmitFlag>true</SubmitFlag>
+							<AdminFee>N</AdminFee>
+							<AddressID>1-ODMC77D</AddressID>
+							<VettingFlag>N</VettingFlag>
+							<ListOfDealSheetVAS />
+							<CreditVettingResult>
+								<ApplicationStatus>PROCESSED</ApplicationStatus>
+								<ServiceRequestNumber>SR-0000007385</ServiceRequestNumber>
+								<ApprovalNumber>1258706</ApprovalNumber>
+								<CallLimitFlag>false</CallLimitFlag>
+								<CreditLimitFlag>false</CreditLimitFlag>
+								<FinancedChargedValue>0.0</FinancedChargedValue>
+								<FinancedDeal>Y</FinancedDeal>
+								<HandsetLimit>19999.0</HandsetLimit>
+								<LatestVetDate>11/30/2018</LatestVetDate>
+								<PortfolioNumber>P0700</PortfolioNumber>
+								<Referralnumber>23309445</Referralnumber>
+								<SuccessStatus>true</SuccessStatus>
+								<TariffLimit>10189.47</TariffLimit>
+								<VettingDate>11/30/2018</VettingDate>
+								<VettingStatus>APPROVED</VettingStatus>
+								<CreditVettingResultItem>
+									<DealId>DV15DC1066</DealId>
+									<RequiredDepositValue>0.0</RequiredDepositValue>
+									<DepositType>ReqTarrifDep</DepositType>
+									<LineNumber>2</LineNumber>
+									<UpfrontPaymentValue>0.0</UpfrontPaymentValue>
+								</CreditVettingResultItem>
+							</CreditVettingResult>
+							<DealerName>VODACOM SHOP VODACOM WORLD</DealerName>
+							<ListOfIMEI>
+								<DealsheetIMEI>
+									<ProductCode>104029251</ProductCode>
+									<IMEI>878767654543510</IMEI>
+								</DealsheetIMEI>
+							</ListOfIMEI>
+							<ListOfICCID>
+								<DealsheetICCID>
+									<PromotionId>1-1ADFKM</PromotionId>
+									<ProductCode>103004940</ProductCode>
+									<ICCID>89300000000009802248</ICCID>
+								</DealsheetICCID>
+							</ListOfICCID>
+							<SIMSwapFlag>false</SIMSwapFlag>
+						</CreateQuoteForDealsheet>
+					</soap:Body></soap:Envelope>","{""StatusCode"":""0"",""QuoteNumber"":""VODACOMONLIN-0000007385"",""OrderNumber"":""TAPOMNIO-0000007386""}","Open"
+"V17OC796","New Activation","VWOR1","TAPOmni","27609943615","VODACOMONLIN-0000007645","TAPOMNIO-0000007646","89300000000009801802","<?xml version=""1.0"" encoding=""utf-8""?><soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""  xmlns:v4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:v2=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerDetails/V2"" xmlns:WL5G3N1=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N2=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N3=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:WL5G3N4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:WL5G3N5=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:genfault=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:hdr=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:svcfault=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:tns=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:typ=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3""><soap:Header><v4:RequestHeader><v4:MessageCreationTimestamp>2019-06-04T15:51:12.190+02:00</v4:MessageCreationTimestamp><v4:TransactionId>e2c14knlxk9gkez7pw8</v4:TransactionId><v4:TransactionCreationTimestamp>2019-06-04T15:51:12.190+02:00</v4:TransactionCreationTimestamp><v4:RequestApplicationId>TAPOmni</v4:RequestApplicationId><v4:UserId>MOURYAM</v4:UserId></v4:RequestHeader>
+<add:MessageID xmlns:add=""http://www.w3.org/2005/08/addressing"" xmlns=""http://www.w3.org/2005/08/addressing"">uuid:e11fac46-2f18-4948-af9e-78dd281cc950</add:MessageID></soap:Header><soap:Body>
+						<CreateQuoteForDealsheet xmlns=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:ns2=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns3=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:ns4=""http://www.w3.org/2005/08/addressing"" xmlns:ns5=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:ns6=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"">
+							<AccountID>1-53083156031</AccountID>
+							<DealsheetNumber>V17OC796</DealsheetNumber>
+							<QuoteNumber>VODACOMONLIN-0000007645</QuoteNumber>
+							<ActivationType>New Activation</ActivationType>
+							<MSISDN>27609943615</MSISDN>
+							<DealerID>VWOR1</DealerID>
+							<Channel>TAPOmni</Channel>
+							<BillingProfileID>1-ODWC9D8</BillingProfileID>
+							<FulfillmentPriorityCode>Medium</FulfillmentPriorityCode>
+							<SubmitFlag>true</SubmitFlag>
+							<AdminFee>N</AdminFee>
+							<AddressID>1-ODWC9CV</AddressID>
+							<VettingFlag>N</VettingFlag>
+							<ListOfDealSheetVAS />
+							<CreditVettingResult>
+								<ApplicationStatus>PROCESSED</ApplicationStatus>
+								<ServiceRequestNumber>SR-0000007645</ServiceRequestNumber>
+								<ApprovalNumber>1274318</ApprovalNumber>
+								<CallLimitFlag>false</CallLimitFlag>
+								<CreditLimitFlag>false</CreditLimitFlag>
+								<FinancedChargedValue>0.0</FinancedChargedValue>
+								<FinancedDeal>Y</FinancedDeal>
+								<HandsetLimit>19999.0</HandsetLimit>
+								<LatestVetDate>11/30/2018</LatestVetDate>
+								<PortfolioNumber>P0700</PortfolioNumber>
+								<Referralnumber>23310722</Referralnumber>
+								<SuccessStatus>true</SuccessStatus>
+								<TariffLimit>10189.47</TariffLimit>
+								<VettingDate>11/30/2018</VettingDate>
+								<VettingStatus>APPROVED</VettingStatus>
+								<CreditVettingResultItem>
+									<DealId>V17OC796</DealId>
+									<RequiredDepositValue>0.0</RequiredDepositValue>
+									<DepositType>ReqTarrifDep</DepositType>
+									<LineNumber>2</LineNumber>
+									<UpfrontPaymentValue>0.0</UpfrontPaymentValue>
+								</CreditVettingResultItem>
+							</CreditVettingResult>
+							<DealerName>VODACOM SHOP VODACOM WORLD</DealerName>
+							<ListOfIMEI>
+								<DealsheetIMEI>
+									<ProductCode>104036379</ProductCode>
+									<IMEI>878767654543510</IMEI>
+								</DealsheetIMEI>
+							</ListOfIMEI>
+							<ListOfICCID>
+								<DealsheetICCID>
+									<PromotionId>1-1ADFKM</PromotionId>
+									<ProductCode>103004940</ProductCode>
+									<ICCID>89300000000009801802</ICCID>
+								</DealsheetICCID>
+							</ListOfICCID>
+							<SIMSwapFlag>false</SIMSwapFlag>
+						</CreateQuoteForDealsheet>
+					</soap:Body></soap:Envelope>","{""StatusCode"":""0"",""QuoteNumber"":""VODACOMONLIN-0000007645"",""OrderNumber"":""TAPOMNIO-0000007646""}","Open"
+"V17OC796","New Activation","VWOR1","TAPOmni","27609945058","VODACOMONLIN-0000007631","TAPOMNIO-0000007632","89300000000009801091","<?xml version=""1.0"" encoding=""utf-8""?><soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""  xmlns:v4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:v2=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerDetails/V2"" xmlns:WL5G3N1=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N2=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N3=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:WL5G3N4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:WL5G3N5=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:genfault=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:hdr=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:svcfault=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:tns=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:typ=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3""><soap:Header><v4:RequestHeader><v4:MessageCreationTimestamp>2019-06-04T13:17:40.600+02:00</v4:MessageCreationTimestamp><v4:TransactionId>0udb6tlz4jm9v62i2mn</v4:TransactionId><v4:TransactionCreationTimestamp>2019-06-04T13:17:40.600+02:00</v4:TransactionCreationTimestamp><v4:RequestApplicationId>TAPOmni</v4:RequestApplicationId><v4:UserId>MOURYAM</v4:UserId></v4:RequestHeader>
+<add:MessageID xmlns:add=""http://www.w3.org/2005/08/addressing"" xmlns=""http://www.w3.org/2005/08/addressing"">uuid:e11fac46-2f18-4948-af9e-78dd281cc950</add:MessageID></soap:Header><soap:Body>
+						<CreateQuoteForDealsheet xmlns=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:ns2=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns3=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:ns4=""http://www.w3.org/2005/08/addressing"" xmlns:ns5=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:ns6=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"">
+							<AccountID>1-53080696171</AccountID>
+							<DealsheetNumber>V17OC796</DealsheetNumber>
+							<QuoteNumber>VODACOMONLIN-0000007631</QuoteNumber>
+							<ActivationType>New Activation</ActivationType>
+							<MSISDN>27609945058</MSISDN>
+							<DealerID>VWOR1</DealerID>
+							<Channel>TAPOmni</Channel>
+							<BillingProfileID>1-ODUVJC2</BillingProfileID>
+							<FulfillmentPriorityCode>Medium</FulfillmentPriorityCode>
+							<SubmitFlag>true</SubmitFlag>
+							<AdminFee>N</AdminFee>
+							<AddressID>1-ODUVJBF</AddressID>
+							<VettingFlag>N</VettingFlag>
+							<ListOfDealSheetVAS />
+							<CreditVettingResult>
+								<ApplicationStatus>PROCESSED</ApplicationStatus>
+								<ServiceRequestNumber>SR-0000007631</ServiceRequestNumber>
+								<ApprovalNumber>1272631</ApprovalNumber>
+								<CallLimitFlag>false</CallLimitFlag>
+								<CreditLimitFlag>false</CreditLimitFlag>
+								<FinancedChargedValue>0.0</FinancedChargedValue>
+								<FinancedDeal>Y</FinancedDeal>
+								<HandsetLimit>19999.0</HandsetLimit>
+								<LatestVetDate>11/30/2018</LatestVetDate>
+								<PortfolioNumber>P0700</PortfolioNumber>
+								<Referralnumber>23310667</Referralnumber>
+								<SuccessStatus>true</SuccessStatus>
+								<TariffLimit>10189.47</TariffLimit>
+								<VettingDate>11/30/2018</VettingDate>
+								<VettingStatus>APPROVED</VettingStatus>
+								<CreditVettingResultItem>
+									<DealId>V17OC796</DealId>
+									<RequiredDepositValue>0.0</RequiredDepositValue>
+									<DepositType>ReqTarrifDep</DepositType>
+									<LineNumber>2</LineNumber>
+									<UpfrontPaymentValue>0.0</UpfrontPaymentValue>
+								</CreditVettingResultItem>
+							</CreditVettingResult>
+							<DealerName>VODACOM SHOP VODACOM WORLD</DealerName>
+							<ListOfIMEI>
+								<DealsheetIMEI>
+									<ProductCode>104036379</ProductCode>
+									<IMEI>878767654543510</IMEI>
+								</DealsheetIMEI>
+							</ListOfIMEI>
+							<ListOfICCID>
+								<DealsheetICCID>
+									<PromotionId>1-1ADFKM</PromotionId>
+									<ProductCode>103004940</ProductCode>
+									<ICCID>89300000000009801091</ICCID>
+								</DealsheetICCID>
+							</ListOfICCID>
+							<SIMSwapFlag>false</SIMSwapFlag>
+						</CreateQuoteForDealsheet>
+					</soap:Body></soap:Envelope>","{""StatusCode"":""0"",""QuoteNumber"":""VODACOMONLIN-0000007631"",""OrderNumber"":""TAPOMNIO-0000007632""}","Open"
+"DV15DC1066","New Activation","VWOR1","TAPOmni","27609945802","VODACOMONLIN-0000007652","TAPOMNIO-0000007653","89300000000009804095","<?xml version=""1.0"" encoding=""utf-8""?><soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""  xmlns:v4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:v2=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerDetails/V2"" xmlns:WL5G3N1=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N2=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:WL5G3N3=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:WL5G3N4=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:WL5G3N5=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:genfault=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:hdr=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:svcfault=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"" xmlns:tns=""http://xmlns.vodacom.co.za/services/crm/ManageCustomerOrders/V3"" xmlns:typ=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3""><soap:Header><v4:RequestHeader><v4:MessageCreationTimestamp>2019-06-04T16:04:54.704+02:00</v4:MessageCreationTimestamp><v4:TransactionId>n8x14twn17abo6xoou6</v4:TransactionId><v4:TransactionCreationTimestamp>2019-06-04T16:04:54.705+02:00</v4:TransactionCreationTimestamp><v4:RequestApplicationId>TAPOmni</v4:RequestApplicationId><v4:UserId>MOURYAM</v4:UserId></v4:RequestHeader>
+<add:MessageID xmlns:add=""http://www.w3.org/2005/08/addressing"" xmlns=""http://www.w3.org/2005/08/addressing"">uuid:e11fac46-2f18-4948-af9e-78dd281cc950</add:MessageID></soap:Header><soap:Body>
+						<CreateQuoteForDealsheet xmlns=""http://xmlns.vodacom.co.za/types/crm/ManageCustomerOrders/V3"" xmlns:ns2=""http://xmlns.vodacom.co.za/types/common/header/V4"" xmlns:ns3=""http://docs.oasis-open.org/wsrf/bf-2"" xmlns:ns4=""http://www.w3.org/2005/08/addressing"" xmlns:ns5=""http://xmlns.vodacom.co.za/faults/common/V2"" xmlns:ns6=""http://xmlns.vodacom.co.za/faults/crm/ManageCustomerOrders/V3"">
+							<AccountID>1-53082525091</AccountID>
+							<DealsheetNumber>DV15DC1066</DealsheetNumber>
+							<QuoteNumber>VODACOMONLIN-0000007652</QuoteNumber>
+							<ActivationType>New Activation</ActivationType>
+							<MSISDN>27609945802</MSISDN>
+							<DealerID>VWOR1</DealerID>
+							<Channel>TAPOmni</Channel>
+							<BillingProfileID>1-ODVYQJE</BillingProfileID>
+							<FulfillmentPriorityCode>Medium</FulfillmentPriorityCode>
+							<SubmitFlag>true</SubmitFlag>
+							<AdminFee>N</AdminFee>
+							<AddressID>1-ODVYQIR</AddressID>
+							<VettingFlag>N</VettingFlag>
+							<ListOfDealSheetVAS />
+							<CreditVettingResult>
+								<ApplicationStatus>PROCESSED</ApplicationStatus>
+								<ServiceRequestNumber>SR-0000007652</ServiceRequestNumber>
+								<ApprovalNumber>1274591</ApprovalNumber>
+								<CallLimitFlag>false</CallLimitFlag>
+								<CreditLimitFlag>false</CreditLimitFlag>
+								<FinancedChargedValue>0.0</FinancedChargedValue>
+								<FinancedDeal>Y</FinancedDeal>
+								<HandsetLimit>19999.0</HandsetLimit>
+								<LatestVetDate>11/30/2018</LatestVetDate>
+								<PortfolioNumber>P0700</PortfolioNumber>
+								<Referralnumber>23310731</Referralnumber>
+								<SuccessStatus>true</SuccessStatus>
+								<TariffLimit>10189.47</TariffLimit>
+								<VettingDate>11/30/2018</VettingDate>
+								<VettingStatus>APPROVED</VettingStatus>
+								<CreditVettingResultItem>
+									<DealId>DV15DC1066</DealId>
+									<RequiredDepositValue>0.0</RequiredDepositValue>
+									<DepositType>ReqTarrifDep</DepositType>
+									<LineNumber>2</LineNumber>
+									<UpfrontPaymentValue>0.0</UpfrontPaymentValue>
+								</CreditVettingResultItem>
+							</CreditVettingResult>
+							<DealerName>VODACOM SHOP VODACOM WORLD</DealerName>
+							<ListOfIMEI>
+								<DealsheetIMEI>
+									<ProductCode>104029251</ProductCode>
+									<IMEI>878767654543510</IMEI>
+								</DealsheetIMEI>
+							</ListOfIMEI>
+							<ListOfICCID>
+								<DealsheetICCID>
+									<PromotionId>1-1ADFKM</PromotionId>
+									<ProductCode>103004940</ProductCode>
+									<ICCID>89300000000009804095</ICCID>
+								</DealsheetICCID>
+							</ListOfICCID>
+							<SIMSwapFlag>false</SIMSwapFlag>
+						</CreateQuoteForDealsheet>
+					</soap:Body></soap:Envelope>","{""StatusCode"":""0"",""QuoteNumber"":""VODACOMONLIN-0000007652"",""OrderNumber"":""TAPOMNIO-0000007653""}","Open"
